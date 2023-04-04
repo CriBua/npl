@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/npl/code/npl
-BuildDirectory: /home/npl/code/npl/build
+SourceDirectory: /home/npl/code/NPL
+BuildDirectory: /home/npl/code/NPL/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/npl/code/npl"
+ConfigureCommand: "/usr/bin/cmake" "/home/npl/code/NPL"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 

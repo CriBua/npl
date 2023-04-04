@@ -83,7 +83,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/npl/code/npl/build"
+			"value" : "/home/npl/code/NPL/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -546,6 +546,10 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
 					"value" : "No help, variable specified on the command line."
 				}
@@ -623,7 +627,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/npl/code/npl"
+			"value" : "/home/npl/code/NPL"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1715,7 +1719,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/npl/code/npl/build"
+			"value" : "/home/npl/code/NPL/build"
 		},
 		{
 			"name" : "npl_IS_TOP_LEVEL",
@@ -1739,7 +1743,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/npl/code/npl"
+			"value" : "/home/npl/code/NPL"
 		}
 	],
 	"kind" : "cache",

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/npl/code/npl
+CMAKE_SOURCE_DIR = /home/npl/code/NPL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/npl/code/npl/build
+CMAKE_BINARY_DIR = /home/npl/code/NPL/build
 
 # Utility rule file for ContinuousSubmit.
 
@@ -82,6 +82,6 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
 
 CMakeFiles/ContinuousSubmit.dir/depend:
-	cd /home/npl/code/npl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/npl/code/npl /home/npl/code/npl /home/npl/code/npl/build /home/npl/code/npl/build /home/npl/code/npl/build/CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/npl/code/NPL/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/npl/code/NPL /home/npl/code/NPL /home/npl/code/NPL/build /home/npl/code/NPL/build /home/npl/code/NPL/build/CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ContinuousSubmit.dir/depend
 

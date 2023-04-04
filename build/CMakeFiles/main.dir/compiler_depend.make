@@ -195,6 +195,7 @@ CMakeFiles/main.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
   ../lib/libnpl/socket.hpp \
+  /usr/include/c++/11/cstddef \
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_vector.h \
@@ -224,8 +225,17 @@ CMakeFiles/main.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
-  /usr/include/linux/close_range.h
+  /usr/include/linux/close_range.h \
+  ../lib/libnpl/sockaddress.hpp \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/sys/un.h
 
+
+/usr/include/string.h:
+
+/usr/include/c++/11/cstring:
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
@@ -240,6 +250,8 @@ CMakeFiles/main.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/x86_64-linux-gnu/asm/posix_types.h:
 
 /usr/include/linux/posix_types.h:
+
+../lib/libnpl/sockaddress.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/socket_type.h:
 
@@ -324,6 +336,8 @@ CMakeFiles/main.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/11/string_view:
 
 /usr/include/c++/11/bits/alloc_traits.h:
+
+/usr/include/c++/11/cstddef:
 
 /usr/include/c++/11/bits/ranges_base.h:
 
@@ -653,6 +667,8 @@ CMakeFiles/main.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/11/cstdlib:
 
+/usr/include/strings.h:
+
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/asm-generic/socket.h:
@@ -668,6 +684,8 @@ CMakeFiles/main.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/11/ext/alloc_traits.h:
 
 /usr/include/c++/11/bits/cxxabi_forced.h:
+
+/usr/include/x86_64-linux-gnu/sys/un.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 

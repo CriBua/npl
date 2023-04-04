@@ -1,7 +1,17 @@
 [
 {
-  "directory": "/home/npl/code/npl/build",
-  "command": "/usr/bin/clang++-12  -I/home/npl/code/npl/lib/libnpl -g -std=gnu++20 -o CMakeFiles/main.dir/src/main.cpp.o -c /home/npl/code/npl/src/main.cpp",
-  "file": "/home/npl/code/npl/src/main.cpp"
+  "directory": "/home/npl/code/NPL/build",
+  "command": "/usr/bin/clang++-12  -I/home/npl/code/NPL/lib/libnpl -g -std=gnu++20 -o CMakeFiles/main.dir/src/main.cpp.o -c /home/npl/code/NPL/src/main.cpp",
+  "file": "/home/npl/code/NPL/src/main.cpp"
+},
+{
+  "directory": "/home/npl/code/NPL/build",
+  "command": "/usr/bin/clang++-12  -I/home/npl/code/NPL/lib/libnpl -g -std=gnu++20 -o CMakeFiles/unix_srv.dir/src/unix_srv.cpp.o -c /home/npl/code/NPL/src/unix_srv.cpp",
+  "file": "/home/npl/code/NPL/src/unix_srv.cpp"
+},
+{
+  "directory": "/home/npl/code/NPL/build",
+  "command": "/usr/bin/clang++-12  -I/home/npl/code/NPL/lib/libnpl -g -std=gnu++20 -o CMakeFiles/unix_clt.dir/src/unix_clt.cpp.o -c /home/npl/code/NPL/src/unix_clt.cpp",
+  "file": "/home/npl/code/NPL/src/unix_clt.cpp"
 }
 ]

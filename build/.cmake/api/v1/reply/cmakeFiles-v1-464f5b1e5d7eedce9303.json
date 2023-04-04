@@ -183,8 +183,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/npl/code/npl/build",
-		"source" : "/home/npl/code/npl"
+		"build" : "/home/npl/code/NPL/build",
+		"source" : "/home/npl/code/NPL"
 	},
 	"version" : 
 	{

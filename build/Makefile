@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/npl/code/npl
+CMAKE_SOURCE_DIR = /home/npl/code/NPL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/npl/code/npl/build
+CMAKE_BINARY_DIR = /home/npl/code/NPL/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/npl/code/npl/build/CPackSourceConfig.cmake
+	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/npl/code/NPL/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -117,9 +117,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/npl/code/npl/build/CMakeFiles /home/npl/code/npl/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/npl/code/NPL/build/CMakeFiles /home/npl/code/NPL/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/npl/code/npl/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/npl/code/NPL/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -523,6 +523,32 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+#=============================================================================
+# Target rules for targets named unix_srv
+
+# Build rule for target.
+unix_srv: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unix_srv
+.PHONY : unix_srv
+
+# fast build rule for target.
+unix_srv/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix_srv.dir/build.make CMakeFiles/unix_srv.dir/build
+.PHONY : unix_srv/fast
+
+#=============================================================================
+# Target rules for targets named unix_clt
+
+# Build rule for target.
+unix_clt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unix_clt
+.PHONY : unix_clt
+
+# fast build rule for target.
+unix_clt/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix_clt.dir/build.make CMakeFiles/unix_clt.dir/build
+.PHONY : unix_clt/fast
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -546,6 +572,54 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/unix_clt.o: src/unix_clt.cpp.o
+.PHONY : src/unix_clt.o
+
+# target to build an object file
+src/unix_clt.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix_clt.dir/build.make CMakeFiles/unix_clt.dir/src/unix_clt.cpp.o
+.PHONY : src/unix_clt.cpp.o
+
+src/unix_clt.i: src/unix_clt.cpp.i
+.PHONY : src/unix_clt.i
+
+# target to preprocess a source file
+src/unix_clt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix_clt.dir/build.make CMakeFiles/unix_clt.dir/src/unix_clt.cpp.i
+.PHONY : src/unix_clt.cpp.i
+
+src/unix_clt.s: src/unix_clt.cpp.s
+.PHONY : src/unix_clt.s
+
+# target to generate assembly for a file
+src/unix_clt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix_clt.dir/build.make CMakeFiles/unix_clt.dir/src/unix_clt.cpp.s
+.PHONY : src/unix_clt.cpp.s
+
+src/unix_srv.o: src/unix_srv.cpp.o
+.PHONY : src/unix_srv.o
+
+# target to build an object file
+src/unix_srv.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix_srv.dir/build.make CMakeFiles/unix_srv.dir/src/unix_srv.cpp.o
+.PHONY : src/unix_srv.cpp.o
+
+src/unix_srv.i: src/unix_srv.cpp.i
+.PHONY : src/unix_srv.i
+
+# target to preprocess a source file
+src/unix_srv.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix_srv.dir/build.make CMakeFiles/unix_srv.dir/src/unix_srv.cpp.i
+.PHONY : src/unix_srv.cpp.i
+
+src/unix_srv.s: src/unix_srv.cpp.s
+.PHONY : src/unix_srv.s
+
+# target to generate assembly for a file
+src/unix_srv.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix_srv.dir/build.make CMakeFiles/unix_srv.dir/src/unix_srv.cpp.s
+.PHONY : src/unix_srv.cpp.s
 
 # Help Target
 help:
@@ -587,9 +661,17 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... main"
+	@echo "... unix_clt"
+	@echo "... unix_srv"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/unix_clt.o"
+	@echo "... src/unix_clt.i"
+	@echo "... src/unix_clt.s"
+	@echo "... src/unix_srv.o"
+	@echo "... src/unix_srv.i"
+	@echo "... src/unix_srv.s"
 .PHONY : help
 
 
