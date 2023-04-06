@@ -214,4 +214,5 @@ CMakeFiles/main.dir/src/main.cpp.o: /home/npl/code/NPL/src/main.cpp \
   /home/npl/code/NPL/lib/libnpl/sockaddress.hpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstring \
   /usr/include/string.h /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/sys/un.h
+  /usr/include/x86_64-linux-gnu/sys/un.h /usr/include/netinet/in.h \
+  /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/arpa/inet.h

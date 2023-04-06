@@ -87,4 +87,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/main.dir/DependInfo.cmake"
   "CMakeFiles/unix_srv.dir/DependInfo.cmake"
   "CMakeFiles/unix_clt.dir/DependInfo.cmake"
+  "CMakeFiles/endianess.dir/DependInfo.cmake"
+  "CMakeFiles/ip_clt.dir/DependInfo.cmake"
+  "CMakeFiles/ip_srv.dir/DependInfo.cmake"
   )

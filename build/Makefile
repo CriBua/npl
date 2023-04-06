@@ -549,6 +549,117 @@ unix_clt/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix_clt.dir/build.make CMakeFiles/unix_clt.dir/build
 .PHONY : unix_clt/fast
 
+#=============================================================================
+# Target rules for targets named endianess
+
+# Build rule for target.
+endianess: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 endianess
+.PHONY : endianess
+
+# fast build rule for target.
+endianess/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/endianess.dir/build.make CMakeFiles/endianess.dir/build
+.PHONY : endianess/fast
+
+#=============================================================================
+# Target rules for targets named ip_clt
+
+# Build rule for target.
+ip_clt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ip_clt
+.PHONY : ip_clt
+
+# fast build rule for target.
+ip_clt/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ip_clt.dir/build.make CMakeFiles/ip_clt.dir/build
+.PHONY : ip_clt/fast
+
+#=============================================================================
+# Target rules for targets named ip_srv
+
+# Build rule for target.
+ip_srv: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ip_srv
+.PHONY : ip_srv
+
+# fast build rule for target.
+ip_srv/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ip_srv.dir/build.make CMakeFiles/ip_srv.dir/build
+.PHONY : ip_srv/fast
+
+src/endianess.o: src/endianess.cpp.o
+.PHONY : src/endianess.o
+
+# target to build an object file
+src/endianess.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/endianess.dir/build.make CMakeFiles/endianess.dir/src/endianess.cpp.o
+.PHONY : src/endianess.cpp.o
+
+src/endianess.i: src/endianess.cpp.i
+.PHONY : src/endianess.i
+
+# target to preprocess a source file
+src/endianess.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/endianess.dir/build.make CMakeFiles/endianess.dir/src/endianess.cpp.i
+.PHONY : src/endianess.cpp.i
+
+src/endianess.s: src/endianess.cpp.s
+.PHONY : src/endianess.s
+
+# target to generate assembly for a file
+src/endianess.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/endianess.dir/build.make CMakeFiles/endianess.dir/src/endianess.cpp.s
+.PHONY : src/endianess.cpp.s
+
+src/ip_clt.o: src/ip_clt.cpp.o
+.PHONY : src/ip_clt.o
+
+# target to build an object file
+src/ip_clt.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ip_clt.dir/build.make CMakeFiles/ip_clt.dir/src/ip_clt.cpp.o
+.PHONY : src/ip_clt.cpp.o
+
+src/ip_clt.i: src/ip_clt.cpp.i
+.PHONY : src/ip_clt.i
+
+# target to preprocess a source file
+src/ip_clt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ip_clt.dir/build.make CMakeFiles/ip_clt.dir/src/ip_clt.cpp.i
+.PHONY : src/ip_clt.cpp.i
+
+src/ip_clt.s: src/ip_clt.cpp.s
+.PHONY : src/ip_clt.s
+
+# target to generate assembly for a file
+src/ip_clt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ip_clt.dir/build.make CMakeFiles/ip_clt.dir/src/ip_clt.cpp.s
+.PHONY : src/ip_clt.cpp.s
+
+src/ip_srv.o: src/ip_srv.cpp.o
+.PHONY : src/ip_srv.o
+
+# target to build an object file
+src/ip_srv.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ip_srv.dir/build.make CMakeFiles/ip_srv.dir/src/ip_srv.cpp.o
+.PHONY : src/ip_srv.cpp.o
+
+src/ip_srv.i: src/ip_srv.cpp.i
+.PHONY : src/ip_srv.i
+
+# target to preprocess a source file
+src/ip_srv.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ip_srv.dir/build.make CMakeFiles/ip_srv.dir/src/ip_srv.cpp.i
+.PHONY : src/ip_srv.cpp.i
+
+src/ip_srv.s: src/ip_srv.cpp.s
+.PHONY : src/ip_srv.s
+
+# target to generate assembly for a file
+src/ip_srv.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ip_srv.dir/build.make CMakeFiles/ip_srv.dir/src/ip_srv.cpp.s
+.PHONY : src/ip_srv.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -660,9 +771,21 @@ help:
 	@echo "... NightlySubmit"
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
+	@echo "... endianess"
+	@echo "... ip_clt"
+	@echo "... ip_srv"
 	@echo "... main"
 	@echo "... unix_clt"
 	@echo "... unix_srv"
+	@echo "... src/endianess.o"
+	@echo "... src/endianess.i"
+	@echo "... src/endianess.s"
+	@echo "... src/ip_clt.o"
+	@echo "... src/ip_clt.i"
+	@echo "... src/ip_clt.s"
+	@echo "... src/ip_srv.o"
+	@echo "... src/ip_srv.i"
+	@echo "... src/ip_srv.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

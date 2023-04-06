@@ -13,5 +13,20 @@
   "directory": "/home/npl/code/NPL/build",
   "command": "/usr/bin/clang++-12  -I/home/npl/code/NPL/lib/libnpl -g -std=gnu++20 -o CMakeFiles/unix_clt.dir/src/unix_clt.cpp.o -c /home/npl/code/NPL/src/unix_clt.cpp",
   "file": "/home/npl/code/NPL/src/unix_clt.cpp"
+},
+{
+  "directory": "/home/npl/code/NPL/build",
+  "command": "/usr/bin/clang++-12  -I/home/npl/code/NPL/lib/libnpl -g -std=gnu++20 -o CMakeFiles/endianess.dir/src/endianess.cpp.o -c /home/npl/code/NPL/src/endianess.cpp",
+  "file": "/home/npl/code/NPL/src/endianess.cpp"
+},
+{
+  "directory": "/home/npl/code/NPL/build",
+  "command": "/usr/bin/clang++-12  -I/home/npl/code/NPL/lib/libnpl -g -std=gnu++20 -o CMakeFiles/ip_clt.dir/src/ip_clt.cpp.o -c /home/npl/code/NPL/src/ip_clt.cpp",
+  "file": "/home/npl/code/NPL/src/ip_clt.cpp"
+},
+{
+  "directory": "/home/npl/code/NPL/build",
+  "command": "/usr/bin/clang++-12  -I/home/npl/code/NPL/lib/libnpl -g -std=gnu++20 -o CMakeFiles/ip_srv.dir/src/ip_srv.cpp.o -c /home/npl/code/NPL/src/ip_srv.cpp",
+  "file": "/home/npl/code/NPL/src/ip_srv.cpp"
 }
 ]

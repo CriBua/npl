@@ -29,6 +29,9 @@
 /home/npl/code/NPL/build/CMakeFiles/main.dir
 /home/npl/code/NPL/build/CMakeFiles/unix_srv.dir
 /home/npl/code/NPL/build/CMakeFiles/unix_clt.dir
+/home/npl/code/NPL/build/CMakeFiles/endianess.dir
+/home/npl/code/NPL/build/CMakeFiles/ip_clt.dir
+/home/npl/code/NPL/build/CMakeFiles/ip_srv.dir
 /home/npl/code/NPL/build/CMakeFiles/package.dir
 /home/npl/code/NPL/build/CMakeFiles/package_source.dir
 /home/npl/code/NPL/build/CMakeFiles/test.dir

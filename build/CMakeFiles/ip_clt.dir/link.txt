@@ -1,0 +1,1 @@
+/usr/bin/clang++-12 -g -rdynamic CMakeFiles/ip_clt.dir/src/ip_clt.cpp.o -o ip_clt 

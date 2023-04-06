@@ -1,0 +1,1 @@
+/usr/bin/clang++-12 -g -rdynamic CMakeFiles/ip_srv.dir/src/ip_srv.cpp.o -o ip_srv 

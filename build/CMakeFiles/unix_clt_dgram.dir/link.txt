@@ -1,0 +1,1 @@
+/usr/bin/clang++-12 -g -rdynamic CMakeFiles/unix_clt_dgram.dir/src/unix_clt_dgram.cpp.o -o unix_clt_dgram 

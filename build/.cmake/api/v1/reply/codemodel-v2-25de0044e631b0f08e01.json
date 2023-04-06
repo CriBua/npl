@@ -45,7 +45,10 @@
 						27,
 						28,
 						29,
-						30
+						30,
+						31,
+						32,
+						33
 					]
 				}
 			],
@@ -90,7 +93,10 @@
 						27,
 						28,
 						29,
-						30
+						30,
+						31,
+						32,
+						33
 					]
 				}
 			],
@@ -290,6 +296,27 @@
 					"id" : "NightlyUpdate::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-NightlyUpdate-Debug-dc9b73534cf3f5c86bdd.json",
 					"name" : "NightlyUpdate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "endianess::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-endianess-Debug-022a0cc8c19a13d12113.json",
+					"name" : "endianess",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ip_clt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ip_clt-Debug-7deb327b3dfc7bd3d618.json",
+					"name" : "ip_clt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ip_srv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ip_srv-Debug-8ef0e353a76b18b5c281.json",
+					"name" : "ip_srv",
 					"projectIndex" : 0
 				},
 				{

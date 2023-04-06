@@ -1,0 +1,1 @@
+/usr/bin/clang++-12 -g -rdynamic CMakeFiles/unix_srv_dgram.dir/src/unix_srv_dgram.cpp.o -o unix_srv_dgram 
